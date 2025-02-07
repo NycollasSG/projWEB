@@ -1,17 +1,20 @@
+
 body {
-    background-color: rgb(230, 246, 255);;
+    background-color: #f7f1e1   ;
+    line-height: 1.5;
 }
 
-.headC {
-    background-color: rgb(27, 102, 83);
+.header {
+    background-color: #1b6653d4;
     display: flex;
     align-items: center;
     gap: 10px;
     border-radius: 10px;
+    padding: 0.5em;
 }
 
 .links {
-    color: rgb(211, 236, 227);
+    color: #d3ece3;
     font-size: larger;
     font-family: "Roboto Mono", monospace;
     font-weight: 200;
@@ -31,18 +34,93 @@ a:hover {
 }
 
 footer {
-    color: black;
+    box-sizing: border-box;
+    background-color: #1b6653d4;
+    color: #d3ece3;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border: 5px solid rgb(1, 67, 39);
+    width: 100%;
 }
 
-#year {
+.listaUsers {
+    display: flex;
+    background-color: #2cad8dd4;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:3em auto; 
+    border: 5px solid #1b6653d4;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+ .credenciais {
+    display: flex;
+    background-color: #2cad8dd4;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:3em auto; 
+    border: 5px solid #1b6653d4;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.cadastroAdm {
     text-align: center;
 }
 
-form {
+.credenciais input {
+    background-color: #1b6653d4;
+    border: 1px solid #1b6653d4;
+}
+
+.userSearch input {
+    background-color: #1b6653d4;
+    border: 1px solid #1b6653d4;
+}
+
+.insBtn {
+    padding: 1em auto;
+    background-color: #1b6653d4;
+    border: 1px solid #1b6653d4;
+    color: rgb(221, 212, 212);
+}
+
+.userListItem {
+    background-color: #3bc5a3d4;
+    border-top: 2px solid #1b6653d4;
+    border-bottom: 2px solid #1b6653d4;
+}
+
+.userlist {
+    list-style-type: none;
+    padding: 0;
+    border-top: 5px solid #1b6653d4;
+    border-bottom: 5px solid #1b6653d4;
+}
+
+button:hover {
+    background-color: #134639d4;
+    border: 1px solid #134639d4;
+}
+
+footer a {
+    color: #d3ece3;
+}
+
+fieldset {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: auto 600px auto 600px;
+}
+
+legend {
+    text-align: center;
 }
 
 
@@ -51,4 +129,5 @@ form {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  color: #2a2a2a ;
 }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <section class="header">
+        <img src="figs/s.png" width="150" height="100" alt="CLIMA AJUDA">
+        <nav>
+        <a class="links" href="index.html">Inicio</a>
+        <a class="links" href="admin.html">Admin</a>
+        </nav>
+    </section>
+    <br>
+
+    <section class="cadastroAdm">
+        <form class="credenciais">
+            <h1>Cadastro de Usuários</h1>
+            <label for="nome">Nome de Usuário:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"required>
+            <br>
+            <button class="insBtn" onclick="addUser()">Cadastrar usuário</button>
+        </form>
+        <div class="listaUsers">
+        <h2>Lista de usuários</h2>
+        <form class="userSearch">
+            <label for="search">Pesquisar usuários: </label>
+            <input type="text" name="search" id="search">
+        </form>
+        <ul class="userlist" id="userlist">
+            <li>teste</li>
+        </ul>
+
+        <button id="clearBtn" class="insBtn" onclick="clearList()">Limpar lista</button>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://nycollassg.github.io/curriculum/" target="_blank"><i class="material-icons-outlined">add</i>Nycollas da Silva Garcia</a>
+        <p><i class="material-symbols-outlined">arrow_forward</i>2024</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
