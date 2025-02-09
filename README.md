@@ -8,16 +8,14 @@ O objetivo deste projeto é conscientizar as pessoas sobre os problemas climáti
 
 Também explica quais soluções podem ser tomadas em relação as mudanças climaticas e aquecimento global, como hábitos mais sustentáveis e a mudança de combustivéis fósseis para renovavéis. 
 
-O website é estruturado de forma que tenha uma página principal que explica sobre os problemas climáticos, uma página de login e uma de cadastro.
+O website é estruturado de forma que tenha uma página principal com o tema sobre os problemas climaticos, e uma página chamada admin, para cadastro de usuários.
 
-![Screenshot 2024-11-30 at 15-22-57 CLIMA AJUDA](https://github.com/user-attachments/assets/4d079316-15fe-4fa4-a144-372f62a4056c)
+![Captura de tela 2025-02-09 162219](https://github.com/user-attachments/assets/890573c3-3614-496b-a7d3-adac68e79865)
 
-A área de cadastro com três campos para preencher com nome, email e senha.
+![Captura de tela 2025-02-09 162240](https://github.com/user-attachments/assets/8b18cadc-91b7-44b9-b72e-74a8a7ad9d39)
 
-![Screenshot 2024-11-30 at 15-23-26 Formulario](https://github.com/user-attachments/assets/5af5b68d-de20-4a97-b8bf-8020e1b63c20)
+A área admin possui uma área para cadastrar usuários, com campos para nome de usuário e email, e logo abaixo fica a área para listagem de usuários cadastrados, podendo tambem fazer uma pesquisa para filtrar os resultados.
 
-Já a área para efetuar o login, possui campos para nome e senha.
-
-![Screenshot 2024-11-30 at 15-25-11 Login](https://github.com/user-attachments/assets/25727c4a-3550-474e-8fae-70481d5d32b6)
+![Captura de tela 2025-02-09 162228](https://github.com/user-attachments/assets/8dd60279-f21f-49e2-97f7-28f225572b4d)
 
 Projeto feito por Nycollas da Silva Garcia
